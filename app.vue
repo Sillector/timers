@@ -1,5 +1,6 @@
 <template>
   <div class="page-wrap">
+    <VitePwaManifest />
     <NuxtPage />
     <nav class="bottom-nav">
       <NuxtLink to="/" class="nav-btn" :class="{ active: route.path === '/' }">

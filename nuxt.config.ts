@@ -2,6 +2,19 @@ export default defineNuxtConfig({
   ssr: false,
   modules: ['@pinia/nuxt', '@vite-pwa/nuxt'],
   css: ['~/assets/css/main.css'],
+  app: {
+    head: {
+      link: [
+        { rel: 'manifest', href: 'manifest.webmanifest' },
+        { rel: 'icon', type: 'image/png', href: 'icon-192.png' },
+      ],
+      meta: [
+        { name: 'theme-color', content: '#111827' },
+        { name: 'apple-mobile-web-app-capable', content: 'yes' },
+        { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+      ],
+    },
+  },
   pwa: {
     manifest: {
       name: 'Time Tracker',

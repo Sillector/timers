@@ -5,7 +5,13 @@
       "Bash(npm run *)",
       "Bash(Get-Content \"C:\\\\Users\\\\V392D~1.BUL\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-v-bulgakov-Desktop-clode-timers\\\\471e3e75-3730-48ca-ab82-cdff5707a0fe\\\\tasks\\\\b23isr0xb.output\" -Tail 30)",
       "Bash(mkdir -p \"C:\\\\Users\\\\v.bulgakov\\\\Desktop\\\\clode\\\\timers\\\\.claude\")",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(gh pr *)",
+      "Bash(git add *)",
+      "PowerShell(cd \"C:\\\\Users\\\\v.bulgakov\\\\Desktop\\\\clode\\\\timers\"; $env:NUXT_APP_BASE_URL = \"/timers/\"; $env:NUXT_IGNORE_LOCK = \"1\"; npm run generate 2>&1 | Select-String -Pattern \"manifest|icon|error|Error\" | Select-Object -First 30)",
+      "WebFetch(domain:sillector.github.io)"
     ]
   }
 }

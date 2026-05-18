@@ -1,5 +1,6 @@
 <template>
   <div class="timer-page">
+  
     <!-- Header -->
     <header class="header">
       <div class="header-date">{{ todayLabel }}</div>

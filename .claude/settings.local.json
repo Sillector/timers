@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\V392D~1.BUL\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-v-bulgakov-Desktop-clode-timers\\\\471e3e75-3730-48ca-ab82-cdff5707a0fe\\\\tasks\\\\b23isr0xb.output\" -Tail 30)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\v.bulgakov\\\\Desktop\\\\clode\\\\timers\\\\.claude\")",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+export default defineNuxtConfig({
+  ssr: false,
+  modules: ['@pinia/nuxt', '@vite-pwa/nuxt'],
+  css: ['~/assets/css/main.css'],
+  pwa: {
+    manifest: {
+      name: 'Time Tracker',
+      short_name: 'TimeTrack',
+      description: 'Отслеживай время по занятиям',
+      theme_color: '#111827',
+      background_color: '#111827',
+      display: 'standalone',
+      orientation: 'portrait',
+      icons: [
+        { src: '/icon-192.svg', sizes: '192x192', type: 'image/svg+xml', purpose: 'any maskable' },
+        { src: '/icon-512.svg', sizes: '512x512', type: 'image/svg+xml', purpose: 'any maskable' },
+      ],
+    },
+    workbox: {
+      navigateFallback: '/',
+      globPatterns: ['**/*.{js,css,html,svg,ico}'],
+    },
+    devOptions: { enabled: false },
+  },
+})
